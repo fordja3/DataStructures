@@ -48,7 +48,7 @@ public class Stack {
     public static void main(String[] args) {
         Stack st = new Stack();
         
-        // add elements to stack
+        // add elements to stack and print each
         for(int i = 0; i<25; i++){
             if(i%2 == 0 && i > 0){
                 st.push(i+i);
