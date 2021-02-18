@@ -53,14 +53,14 @@ public class Stack {
             if(i%2 == 0 && i > 0){
                 st.push(i+i);
                 st.peek();
-
             }
         }
 
-        st.push(10);
-        st.push(100);
         st.peek();
-        
-    }
+        st.pop();
+        st.peek();
 
+      
+
+    }
 }
